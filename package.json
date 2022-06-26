@@ -1,0 +1,22 @@
+{
+  "name": "adv-lock",
+  "version": "1.0.1",
+  "description": "Lock Manager",
+  "license": "MIT",
+  "author": {
+    "name": "Fabeuluci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabeuluci/adv-lock.git"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "scripts": {
+    "compile": "rm -rf out && tsc",
+    "watch": "rm -rf out && tsc -w"
+  },
+  "dependencies": {
+    "adv-promise": "^1.0.0"
+  }
+}
